@@ -1,0 +1,19 @@
+@echo off
+taskkill /IM wgatray.exe
+echo.
+echo Deleting old files...
+del %systemroot%\system32\wgatray.exe.old
+del %systemroot%\system32\wgalogon.dll.old
+echo.
+echo Renaming files...
+ren %systemroot%\system32\wgatray.exe wgatray.exe.old
+ren %systemroot%\system32\wgalogon.dll wgalogon.dll.old
+echo.
+echo Copying new files...
+copy LegitCheckControl.dll %systemroot%\system32\ /Y
+copy WgaLogon.dll %systemroot%\system32\ /Y
+copy WgaTray.exe %systemroot%\system32\ /Y
+echo.
+echo Done! Please reboot your computer to complete installation!
+echo.
+pause

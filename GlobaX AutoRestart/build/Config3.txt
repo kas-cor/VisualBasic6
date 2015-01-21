@@ -1,0 +1,25 @@
+[server]
+port = 6767
+log = client.log
+datatimeout = 60
+
+[remote]
+name = globax
+server = 62.181.47.244:1111
+login = 
+passwd = 
+speed_in = 320000:384000
+speed_out = 3000
+mtu = 576
+mru = 1500
+flush_time = 100
+
+[local]
+remote = globax
+port = 127.0.0.1:3128
+service_int = 0
+
+[local]
+remote = globax
+port = 127.0.0.1:1080
+service_int = 2

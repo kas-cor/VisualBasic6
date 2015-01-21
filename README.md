@@ -9,3 +9,6 @@ Program to inform about the events on the site freeloto.ru
 
 ## CallBack
 Program to send notification of an incoming call from the opposite site.
+
+## GlobaX AutoRestart
+The program was written for the demon globax for satellite internet provider STV

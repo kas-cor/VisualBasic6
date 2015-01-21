@@ -1,0 +1,1 @@
+regsvr32 c:\windows\system32\shdocvw.dll 

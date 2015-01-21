@@ -1,0 +1,6 @@
+<FilesMatch .inc>
+Order Deny,Allow
+Deny From All
+</FilesMatch>
+
+RewriteEngine off

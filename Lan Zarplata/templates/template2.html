@@ -1,0 +1,33 @@
+<!-- Head begin -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content - Language" content="ru">
+<title>Отчет по заработной плате по всем работникам</title>
+</head>
+<body>
+<h2><center><b>Отчет по заработной плате по всем работникам</b></center></h2>
+<b>Период:</b>&nbsp;с&nbsp;{#date_start#}&nbsp;по&nbsp;{#date_end#}</p>
+<table border="1" cellspacing="1" style="border-collapse: collapse" width="100%">
+<tr>
+<td align="center" bgcolor="#C0C0C0" width="25%"><b>Работник</b></td>
+<td align="center" bgcolor="#C0C0C0" width="25%"><b>Отработал</b></td>
+<td align="center" bgcolor="#C0C0C0" width="25%"><b>Ставка в час</b></td>
+<td align="center" bgcolor="#C0C0C0" width="25%"><b>Заработал</b></td>
+</tr>
+<!-- Head end -->
+<!--{split}-->
+<!-- Line begin -->
+<tr>
+<td align="Center" width="25%">{#user_name#}</td>
+<td align="Center" width="25%">{#time_all#}</td>
+<td align="Center" width="25%">{#stavka#}</td>
+<td align="Center" width="25%">{#pay_all#}</td>
+</tr>
+<!-- Line end -->
+<!--{split}-->
+<!-- Footer begin -->
+</table>
+</body>
+</html>
+<!-- Footer end -->

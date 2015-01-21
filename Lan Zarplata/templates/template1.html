@@ -1,0 +1,52 @@
+<!-- Head begin -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content - Language" content="ru">
+<title>Отчет по заработной плате</title>
+</head>
+<body>
+<h2><center><b>Отчет по заработной плате</b></center></h2>
+<p align="Left"><b>Работник:</b>&nbsp;{#user_name#}<br>
+<b>Период:</b>&nbsp;с&nbsp;{#date_start#}&nbsp;по&nbsp;{#date_end#}</p>
+<table border="1" cellspacing="1" style="border-collapse: collapse" width="100%">
+<tr>
+<td align="center" bgcolor="#C0C0C0" width="14%"><b>Дата</b></td>
+<td align="center" bgcolor="#C0C0C0" width="14%"><b>День недели</b></td>
+<td align="center" bgcolor="#C0C0C0" width="14%"><b>Приход</b></td>
+<td align="center" bgcolor="#C0C0C0" width="14%"><b>Обед</b></td>
+<td align="center" bgcolor="#C0C0C0" width="14%"><b>Уход</b></td>
+<td align="center" bgcolor="#C0C0C0" width="14%"><b>Отработано</b></td>
+<td align="center" bgcolor="#C0C0C0" width="14%"><b>Заработано</b></td>
+</tr>
+<!-- Head end -->
+<!--{split}-->
+<!-- Line begin -->
+<tr>
+<td align="Center" width="14%">{#date#}</td>
+<td align="Center" width="14%">{#week_day_name#}</td>
+<td align="Center" width="14%">{#time_start#}</td>
+<td align="Center" width="14%">{#dinner#}</td>
+<td align="Center" width="14%">{#time_end#}</td>
+<td align="Center" width="14%">{#time#}</td>
+<td align="Center" width="14%">{#pay#}</td>
+</tr>
+<!-- Line end -->
+<!--{split}-->
+<!-- Footer begin -->
+<tr>
+<td align="Right" width="86%" colspan="6"><b>Итого отработано:</b></td>
+<td width="16%" align="Center">{#time_all#}</td>
+</tr>
+<tr>
+<td align="Right" width="86%" colspan="6"><b>Ставка в час:</b></td>
+<td width="16%" align="Center">{#stavka#}</td>
+</tr>
+<tr>
+<td align="Right" width="86%" colspan="6"><b>Итого заработано:</b></td>
+<td width="16%" align="Center">{#pay_all#}</td>
+</tr>
+</table>
+</body>
+</html>
+<!-- Footer end -->

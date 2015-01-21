@@ -1,0 +1,33 @@
+Line 18: Class MSComCtl2.MonthView of control MonthView was not a loaded control class.
+Line 68: Class ComctlLib.ListView of control ListView was not a loaded control class.
+Line 133: Class MSComCtl2.DTPicker of control DT_Date was not a loaded control class.
+Line 146: Class MSComCtl2.DTPicker of control DT_Date was not a loaded control class.
+Line 25: The property name _ExtentX in MonthView is invalid.
+Line 26: The property name _ExtentY in MonthView is invalid.
+Line 27: The property name _Version in MonthView is invalid.
+Line 31: The property name StartOfWeek in MonthView is invalid.
+Line 32: The property name CurrentDate in MonthView is invalid.
+Line 74: The property name _ExtentX in ListView is invalid.
+Line 75: The property name _ExtentY in ListView is invalid.
+Line 76: The property name View in ListView is invalid.
+Line 77: The property name LabelEdit in ListView is invalid.
+Line 78: The property name LabelWrap in ListView is invalid.
+Line 79: The property name HideSelection in ListView is invalid.
+Line 80: The property name _Version in ListView is invalid.
+Line 85: The property name NumItems in ListView is invalid.
+Line 91: The property name ColumnHeader(1) in ListView is invalid.
+Line 99: The property name ColumnHeader(2) in ListView is invalid.
+Line 107: The property name ColumnHeader(3) in ListView is invalid.
+Line 115: The property name ColumnHeader(4) in ListView is invalid.
+Line 123: The property name ColumnHeader(5) in ListView is invalid.
+Line 131: The property name ColumnHeader(6) in ListView is invalid.
+Line 140: The property name _ExtentX in DT_Date is invalid.
+Line 141: The property name _ExtentY in DT_Date is invalid.
+Line 142: The property name _Version in DT_Date is invalid.
+Line 143: The property name Format in DT_Date is invalid.
+Line 144: The property name CurrentDate in DT_Date is invalid.
+Line 153: The property name _ExtentX in DT_Date is invalid.
+Line 154: The property name _ExtentY in DT_Date is invalid.
+Line 155: The property name _Version in DT_Date is invalid.
+Line 156: The property name Format in DT_Date is invalid.
+Line 157: The property name CurrentDate in DT_Date is invalid.

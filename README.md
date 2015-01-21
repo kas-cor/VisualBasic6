@@ -15,3 +15,6 @@ The program was written for the demon globax for satellite internet provider STV
 
 ## HideText
 Hiding text in the program from decompilers.
+
+## Lan Zarplata
+Client-server application for calculating the hourly wage employees.

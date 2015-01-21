@@ -1,0 +1,3 @@
+VBGROUP 5.0
+Project=CallBack_Server.vbp
+StartupProject=CallBack_Client.vbp
